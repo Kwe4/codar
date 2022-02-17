@@ -1,0 +1,448 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+   font-family: Tahoma, sans-serif;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    justify-content:space-evenly;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.toggle-bar {
+    height: 7px;
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* background-color: black; */
+    height: 10vh;
+    width: 100%;
+    padding-right: 1%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+
+}
+
+.sub-nav {
+    position: relative;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 20%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+
+.logo-div {
+    width: 20%;
+    margin-left: 3%;
+    /* background-color: red; */
+}
+
+
+.nav-links {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7%;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+
+
+.first-menu-div {
+   display: flex;
+   width: 40%;
+   /* background-color: blue; */
+}
+
+
+
+.second-menu-div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* background-color:yellow; */
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.5%;
+}
+
+.apply-now-1 {
+  width: 45%;
+  height: 75%;
+}
+.apply-now-2 {
+   width: 45%;
+   height: 75%;
+}
+
+
+.apply-now-top-1 {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+
+.apply-now-top-2 {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.first-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.first-menu li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+
+.bg-div {
+    margin-top: 5em;
+    width: 100%;
+    background:linear-gradient(to right,rgb(241, 15, 45),rgb(139, 3, 139));
+    /* max-height: 75vh; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+
+.text-side {
+/* padding-top: 35px;   
+padding-left: 45px;  
+padding-right: 45px;  */
+width: 55%;
+text-align: center;
+padding:10px;
+display: flex;
+align-items: center;
+
+}
+
+.image-side {
+    /* padding-top: 35px;    */
+/* padding-left: 45px;  
+padding-right: 45px;  */
+width: 45%;
+display: flex;
+}
+
+
+.text-side h1 {
+    color: white;
+    font-size: 2em;
+}
+
+
+.text-side p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.img-box {
+    width: 100%;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+}
+
+.apply-button {
+      width: 180px;
+      height: 50px;
+      color: white;
+      /* background:linear-gradient(to right,rgb(0, 0, 0),rgb(139, 3, 139)); */
+      background-color: transparent;
+      border: 2px solid white;
+    }
+
+.why-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px;
+    justify-content: center;
+    background-color: rgb(255, 218, 224);
+    /* background-color: rgb(213, 167, 213); */
+    row-gap: 35px;
+    column-gap: 40px;
+    
+}
+
+.why-us-1, .why-us-2, .why-us-3, .why-us-4 {
+    padding: 25px;
+    width: 37%;
+    background-color: white;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 15px rgb(198, 198, 198);
+}
+
+.why-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.why-us-box:hover {
+    box-shadow: 5px 5px 25px rgb(198, 198, 198);
+}
+
+
+.hiw-text {
+
+    text-align: center;
+}
+
+
+
+.how-it-works {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+
+.how-it-flex {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.side-a {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side-b {
+    background-color: rgb(181, 201, 244);
+}
+
+
+
+.side-a, .side-b {
+  width: 45%;
+  padding: 50px;
+}
+
+.side-b img {
+    width: 100%;
+}
+
+.about-to-flex {
+  display: flex;
+    background-color: rgb(232, 201, 232);
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-codar {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* FAQ */
+
+
+
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+    text-align: center;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.footer {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-logo-div {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-logo {
+ width: 100px;   
+}
+
+
+.hidden-menu-ul {
+    width: 100%;
+    padding-left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    column-gap: 5%;
+}
+
+.hidden-menu-ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.hidden-menu-ul li{
+    width: 100%;
+    line-height: 40px;
+}
+
+.hidden-menu-ul li:hover {
+     background-color: black; 
+}
+
+.hidden-menu {
+    display: none;
+    /* display: flex; */
+    background-color: rgb(255, 58, 58);
+    width: 100%;
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    top: 80px;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+@media (max-width:820px) {
+    .nav-links {display: none;}
+    .hidden-menu.active {display: flex;}
+    .toggle-button {display: flex;}
+    .bg-div {
+        flex-direction: column;
+        /* max-height: 100vh; */
+  }
+
+
+    .text-side, .image-side {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+     
+    .why-us {
+        flex-direction: column;
+    }
+
+    .why-us-1, .why-us-2, .why-us-3, .why-us-4 {
+        width: 100%;
+    }
+
+    .how-it-flex {
+        flex-direction: column;
+        padding:0;
+    }
+    .side-a, .side-b {
+      width: 100%;
+    }
+
+    .about-to-flex {
+        flex-direction: column;
+    }
+ 
+}
